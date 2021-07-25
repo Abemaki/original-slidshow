@@ -1,0 +1,24 @@
+body {
+  text-align : center;
+}
+.main img {
+  width : 50%;
+  vertical-align: middle;
+}
+.navi {
+  text-align: center;
+}
+button {
+  margin: 10px auto;
+  font-size: 24px;
+}
+.title {
+  font-size: xx-large;
+}
+.thumbnails .selected {
+  opacity: 1.0;
+}
+
+body{
+  font-family: 'Reggae One', cursive;
+}

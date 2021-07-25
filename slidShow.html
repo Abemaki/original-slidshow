@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/fa76c34c1d.js" crossorigin="anonymous"></script>
+ </head>
+  <body bgcolor="#66FF99">
+    <div class="title">
+      自己紹介オリジナルスライドショー
+      <i class="fa-solid fa-dove"></i>
+    </div>
+    <p><font size="5" color="#ff0000">僕の好きなものを紹介していくよ</p>
+    <div class="main">
+      <button type="button" onclick="left()">＜前</button>
+      <img src="https://nature-and-science.jp/wp-content/uploads/2019/09/050103_3204-e1568565448417.jpg">
+      <button type="button" onclick="right()">次＞</button>
+    </div>
+    <div class="control">
+      <button onclick="play()">
+        再生<i class="fa-solid fa-play"></i>
+      </button>
+      <button onclick="stop()">
+        停止<i class="fa-solid fa-pause"></i>
+      </button>
+      <button onclick="reset()">
+        戻す<i class="fa-solid fa-circle-stop"></i>
+      </button>
+    </div>
+    <script src="js/slidShow.js"></script>
+
+
+
+
+
+  </body>
+</html>
